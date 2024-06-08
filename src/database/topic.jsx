@@ -1,635 +1,931 @@
 import { nanoid } from "nanoid";
 
 export const Topic_list = [
-    {
-        id:nanoid(),title:'企業管理功能會受到那些影響?',answer:4,
-        options:['利害關係人','企業環境','全部皆非','除全部皆非以外全部皆是']
+    {//Chapter 9
+        id: nanoid(),
+        title: '顧客關係管理是指?',
+        answer: 4,
+        options:['只有銷售(Sales)與行銷(Marketing)','全部皆非','只有企業流程電腦化','有效的運用資訊科技和顧客流程']
     },
     {
-        id:nanoid(),title:'以下何者不是管理資訊系統結構?',answer:1,
-        options:['總經理室部門組織','管理資訊系統部門組織及作業程序','資訊管理的發展內容','企業應用系統(AP,application system)']
+        id: nanoid(),
+        title: '銷售訂單子模組功能是指有關?',
+        answer: 3,
+        options:['從工程BOM,客戶訂單管理,產品生產交期等','從料件建立,客戶訂單管理,產品生產交期等','從詢報價,客戶訂單管理,產品生產交期等','從詢報價,物料採購管理,產品生產交期等']
     },
     {
-        id:nanoid(),title:'管理資訊系統的歷程包含哪些階段?',answer:3,
-        options:['電子數據處理階段','管理資訊系統階段','全部皆是','決策支援系統階段']
+        id: nanoid(),
+        title: '下列何者不是業務出貨配送的注意原則?',
+        answer: 3,
+        options:['出貨效率','出貨的正確性','全部皆非','出貨成本']
     },
     {
-        id:nanoid(),title:'管理資訊系統在企業營運層次的定位?',answer:4,
-        options:['決策層次','現場操作層次','全部皆是','管理和作業程序']
+        id: nanoid(),
+        title: '銷售自動化作業的系統功能應屬於何者資訊系統?',
+        answer: 1,
+        options:['CRM','SCM','ERP','全部皆是']
     },
     {
-        id:nanoid(),title:'企業營運流程主要是在控管甚麼?',answer:4,
-        options:['全部皆非','資料','資訊','除全部皆非以外全部皆是']
+        id: nanoid(),
+        title: '競賽促銷作業的系統功能應屬於何者資訊系統?',
+        answer: 1,
+        options:['CRM','SCM','ERP','全部皆是']
     },
     {
-        id:nanoid(),title:'整合性報表在MIS上可分成那些報表?',answer:4,
-        options:['決策分析','模擬分析','全部皆是','作業程序']
+        id: nanoid(),
+        title: '管理客戶的訂單資料,目的要了解甚麼?',
+        answer: 4,
+        options:['客戶信用','何種產品對何種客戶是有利潤的','何種客戶對企業是忠誠的','全部皆是']
     },
     {
-        id:nanoid(),title:'下列何者不是資料特性的重點?',answer:3,
-        options:['全部皆非','未經整理的','有用的','原始的']
+        id: nanoid(),
+        title: '漏斗管理作業的系統功能應屬於何者資訊系統?',
+        answer: 1,
+        options:['CRM','SCM','ERP','全部皆是']
     },
     {
-        id:nanoid(),title:'人機互動之所以困難重重,主要原因在於?',answer:4,
-        options:['以人為中心','使用者能在學習後很快地熟悉其他系統的操作','全部皆是','面對電腦的陌生感']
+        id: nanoid(),
+        title: 'CRM系統建構過程時,有關資訊發展會有那些程序?',
+        answer: 3,
+        options:['資訊收集(Data Collection)','資訊儲存(Data Storage)','全部皆是','資訊分析(Data Analysis)']
     },
     {
-        id:nanoid(),title:'下列何者是資訊的特性重點?',answer:1,
-        options:['有用的','原始的','未經整理','全部皆非']
+        id: nanoid(),
+        title: '詢報價的產品價格組合定義,牽扯到什麼?',
+        answer: 3,
+        options:['產品單位的計算','產品重量的計算','產品利潤的計算','全部皆非']
+    },
+    {
+        id: nanoid(),
+        title: '在產品問題客訴的整個作業過程中,有以下問題情形?',
+        answer: 4,
+        options:['上下游的責任單位互不清楚','所耗時間太長','整個作業過程緊密','以上皆是']
     },{
-        id:nanoid(),title:'其他系統是指管理資訊系統本身環境相關的支援性系統,主要包含?',answer:3,
-        options:['會計系統','介面連接系統','全部皆是','採購系統']
+        id: nanoid(),
+        title: '在配送安排中,是指?',
+        answer: 4,
+        options:['客戶對產品問題的退回維修作業','貨品送達到客戶','如何送達到客戶','全部皆是']
     },
     {
-        id:nanoid(),title:'MIS軟體包含哪些模組?',answer:4,
-        options:['資料庫','企業邏輯功能','使用者介面','全部皆是']
+        id: nanoid(),
+        title: '訂單作業的系統功能應屬於何者資訊系統?',
+        answer: 3,
+        options:['CRM','SCM','ERP','全部皆是']
     },
     {
-        id:nanoid(),title:'從管理資訊系和其他系統關連的角度而言,企業若要整合及導入這些不同的系統,則在整合導入過程中,須考量哪三大因素?',answer:1,
-        options:['全部皆是','資訊化顧問的輔導','MIS部門在企業的功效','軟體產品廠商的搭配']
+        id: nanoid(),
+        title: '出貨區產品周轉率高,和什麼有密切的關係?',
+        answer: 4,
+        options:['全部皆是','工作作息時間','產品出貨時間','現場呆滯品的整頓,消化']
     },
     {
-        id:nanoid(),title:'協同產品是指?',answer:1,
-        options:['CPC','ERP','CRM','全部皆是']
+        id: nanoid(),
+        title: '下列何者是業務出貨配送的注意原則?',
+        answer: 1,
+        options:['全部皆是','出貨成本','出貨的正確性','出貨效率']
     },
     {
-        id:nanoid(),title:'管理資訊系統是在企業管理層次的哪一層?',answer:2,
-        options:['全部皆是','管理','策略','決策']
+        id: nanoid(),
+        title: '在裝箱撿貨作業中,出貨的正確資料是由什麼部門主控出貨?',
+        answer: 4,
+        options:['倉庫','會計部','生產部','業務部']
     },
     {
-        id:nanoid(),title:'利用資訊管理的發展運作,設計建構出可應用在企業不同作業功能的資訊系統,是指?',answer:1,
-        options:['企業應用系統','MIS作業程序','全部皆是','MIS組織']
+        id: nanoid(),
+        title: 'CRM系統在網路上的需求衡量是在於?',
+        answer: 3,
+        options:['上網次數','註冊顧客','全部皆是','顧客的互動深度']
     },
     {
-        id:nanoid(),title:'管理資訊系統和作業系統關聯,他主要包含?',answer:2,
-        options:['全部皆是','通訊','存取','檢核']
+        id: nanoid(),
+        title: '顧客行銷演進有?',
+        answer: 2,
+        options:['大眾行銷','全部皆是','1對1行銷','目標行銷']
     },
     {
-        id:nanoid(),title:'流程層面的效益?',answer:1,
-        options:['全部皆是','流程自動化','改善再造','步驟合理化']
+        id: nanoid(),
+        title: '下列何者不是顧客關係的應用範圍?',
+        answer: 3,
+        options:['企業間電子化系統','企業內電子化系統','顧客的互動深度','全部皆非']
     },
     {
-        id:nanoid(),title:'管理資訊系統和資料庫系統關聯,他主要包含?',answer:4,
-        options:['檢核','轉換','存取','全部皆是']
+        id: nanoid(),
+        title: '業務訪談紀錄作業的系統功能應屬於何者資訊系統?',
+        answer: 4,
+        options:['全部皆是','ERP','SCM','CRM']
     },
-    {
-        id:nanoid(),title:'主要是受到資訊來源,創業家認知與判斷(judgment)能力,是指什麼?',answer:2,
-        options:['客製化','機會辨識','全部皆是','商機發現']
-    },
-    {
-        id:nanoid(),title:'差異分析是指什麼?',answer:3,
-        options:['系統設計','全部皆是','企業內部資源能耐和企業KDF因素','系統分析']
-    },
-    {
-        id:nanoid(),title:'將企業需求轉換為結構化的系統呈現表達是指什麼?',answer:1,
-        options:['系統分析','系統設計','程式開發','全部皆是']
-    },
-    {
-        id:nanoid(),title:'軟體系統控管方發包含?',answer:2,
-        options:['程式開發','全部皆是','需求分析','系統設計']
-    },
-    {
-        id:nanoid(),title:'MIS對企業經營的影響主要在哪些層面上?',answer:4,
-        options:['功能層面','制度層面','組織層面','全部皆是']
-    },
-    {
-        id:nanoid(),title:'從企業應用的管理資訊系統功能,包含哪些資訊系統?',answer:4,
-        options:['全部皆是','專家系統','DSS','ERP']
-    },
-    {
-        id:nanoid(),title:'將系統分析的結果轉成系統建置的呈現表達是指什麼?',answer:1,
-        options:['系統設計','系統分析','程式開發','全部皆是']
-    },
-    {
-        id:nanoid(),title:'當產業本身作業特性是標準化時,應運用?',answer:3,
-        options:['全部皆是','外接程式','ERP本身的最佳典範作業','客製化']
-    },
-    {
-        id:nanoid(),title:'資訊系統的開發方法模式有?',answer:4,
-        options:['元件化','模組化','結構化','全部皆是']
-    },
-    {
-        id:nanoid(),title:'所謂商機發現是指?',answer:2,
-        options:['商業智慧(BI)','全部皆是','Knowledge Discovery','知識發現']
+    {//Chapter 10
+        id: nanoid(),
+        title:'資訊擷取作業,主要是?',
+        answer: 1,
+        options:['全部皆是','透過連線,來從公司資訊系統存取相關資訊','自動關聯相關跨區域資訊','建立一個平台']
+    },{
+        id: nanoid(),
+        title: '企業體系間電子化的目的就是?',
+        answer: 1,
+        options:['整合','統計','分析','全部皆是']
     },
     {
-        id:nanoid(),title:'如何判斷資訊系統好壞的因素?',answer:1,
-        options:['全部皆是','系統設計架構','軟體廠商規模','軟體產品價格']
+        id: nanoid(),
+        title: '企業內部的資訊系統應用功能是指?',
+        answer: 4,
+        options:['全部皆是','Internet','Extranet','Intranet']
     },
     {
-        id:nanoid(),title:'如何會產生顧客價值鏈',answer:3,
-        options:['顧客本身的資料','全部皆是','企業流程活動過程來分析顧客','企業流程活動過程來分析產品']
+        id: nanoid(),
+        title: '下列何者是供應鏈內容?',
+        answer: 2,
+        options:['計畫','採購','製造','全部皆是']
     },
     {
-        id:nanoid(),title:'整合報表的特性?',answer:2,
-        options:['整合不同資料檔案關聯的結果','全部皆是','跨部門功能','在一個報表內看到所需要的']
+        id: nanoid(),
+        title: '採購執行的系統功能是屬於何者資訊系統?',
+        answer: 4,
+        options:['ERP','全部皆是','CRM','SCM']
     },
     {
-        id:nanoid(),title:'以目前創新產業競爭之下,還有什麼新的扮演角色',answer:4,
-        options:['全部皆是','輔助決策分析','改善企業流程','創新企業策略結合IT策略']
+        id: nanoid(),
+        title: '偶發醒需求是屬於',
+        answer: 3,
+        options:['二者皆有','全部皆是','獨立需求項目','依賴需求項目']
     },
     {
-        id:nanoid(),title:'資訊系統在以往企業商務的應用主要是扮演什麼角色?',answer:2,
-        options:['改善企業流程','全部皆是','輔助決策分析','強化競爭優勢']
+        id: nanoid(),
+        title: '供應鏈的多國性作業包括?',
+        answer: 2,
+        options:['企業運作資訊化趨勢','某國的整合性作業','同質資料庫','全部皆是']
     },
     {
-        id:nanoid(),title:'測試項目包含?',answer:3,
-        options:['使用者功能','情境','全部皆是','程式單元']
+        id: nanoid(),
+        title: 'SCOR包含多少個層次?',
+        answer: 4,
+        options:['全部皆是','2','3','4']
     },
     {
-        id:nanoid(),title:'下列何者對PERT描述有錯?',answer:4,
-        options:['全部皆是','計畫評估和審查技術','專案管理技術','Project Evaluation and Review Technique']
+        id: nanoid(),
+        title: 'DCOR包含多少個層次?',
+        answer: 4,
+        options:['全部皆是','2','3','4']
     },
     {
-        id:nanoid(),title:'下列何者不是軟體元件的特色?',answer:2,
-        options:['省去多撰寫的時間','不常用的應用功能','重新撰寫程式的bug風險','儲存成DLL類別庫']
+        id: nanoid(),
+        title: '企業功能的延伸經營包含?',
+        answer: 2,
+        options:['維修服務據點','全部皆是','行銷據點','代工生產據點']
     },
     {
-        id:nanoid(),title:'營運計劃可行性的分析有哪些?',answer:3,
-        options:['全部皆是','合作可行性分析','市場可行性分析','空間可行性分析']
+        id: nanoid(),
+        title: '售後服務的系統功能是屬於何者資訊系統',
+        answer: 1,
+        options:['CRM','SCM','全部皆是','ERP']
+    },{
+        id: nanoid(),
+        title: '定義設計鍊成員協同型態的設計流程是指第幾個層次?',
+        answer: 2,
+        options:['2','3','全部皆是','4']
     },
     {
-        id:nanoid(),title:'下列何者是系統分析的作業?',answer:2,
-        options:['資料表設計','資料流程圖','程式編碼','全部皆是']
+        id: nanoid(),
+        title: '設計鏈營運模式的重點範圍是指第幾個層次?',
+        answer: 2,
+        options:['2','3','全部皆是','4']
     },
     {
-        id:nanoid(),title:'管理資訊系統的規劃主要包含?',answer:4,
-        options:['資訊策略的發展','資訊化需求分析需求分析的發展','資源規劃的發展','全部皆是']
+        id: nanoid(),
+        title: '供應鏈作業包含哪些?',
+        answer: 3,
+        options:['採購執行','需求預測','全部皆是','採購追蹤']
     },
     {
-        id:nanoid(),title:'下列何者是系統設計的作業?',answer:4,
-        options:['程式編碼','資料流程圖','全部皆是','資料表設計']
+        id: nanoid(),
+        title: 'DCOR包含多少個協同設計層次?',
+        answer: 4,
+        options:['全部皆是','2','3','4']
     },
     {
-        id:nanoid(),title:'有彈性的程式是具備哪些方式來建構的?',answer:2,
-        options:['元件化','全部皆是','模組化','結構化']
+        id: nanoid(),
+        title: '採購計畫的系統功能是屬於何者資訊系統?',
+        answer: 4,
+        options:['ERP','全部皆是','CRM','SCM']
     },
     {
-        id:nanoid(),title:'下列何者是程式設計的作業?',answer:4,
-        options:['資料流程圖','資料表設計','全部皆是','程式編碼']
+        id: nanoid(),
+        title: '何謂資訊流?',
+        answer: 2,
+        options:['指企業之間和銀行的金額往來','從資訊系統應用功能所運作的過程','實體的流動','全部皆是']
     },
     {
-        id:nanoid(),title:'系統控管方法和建構模式,這二者的差異是在?',answer:1,
-        options:['前者重視方法程序','全部皆是','後者重視方法程序','前者是著重在於方法模式']
+        id: nanoid(),
+        title: '電子化採購(E-Procurement)可分成三大方向?',
+        answer: 2,
+        options:['採購作業','全部皆是','採購回饋','採購規劃']
     },
     {
-        id:nanoid(),title:'軟體專案管理包含哪些階段?',answer:2,
-        options:['結案階段','全部皆是','執行階段','測試階段']
+        id: nanoid(),
+        title: '產業特性是指第幾個層次?',
+        answer: 2,
+        options:['全部皆是','2','3','4']
     },
     {
-        id:nanoid(),title:'資源的需求有哪些?',answer:2,
-        options:['金錢資源','全部皆是','物力','人力']
+        id: nanoid(),
+        title: '先進生產排程的系統功能是屬於何者資訊系統?',
+        answer: 4,
+        options:['CRM','全部皆是','ERP','SCM']
     },
     {
-        id:nanoid(),title:'下列何者是資料庫設計的作業?',answer:1,
-        options:['資料表設計','資料流程圖','程式編碼','全部皆是']
+        id: nanoid(),
+        title: '電子化採購包含?',
+        answer: 4,
+        options:['Qualification','collaboration','Sourcing','全部皆是']
+    },{//Chpater11
+        id: nanoid(),
+        title: '知識的獲取循環過程包含模組?',
+        answer: 3,
+        options:['知識來源identify','知識擷取','全部皆是','知識介面']
     },
     {
-        id:nanoid(),title:'就資訊人員而言,下列何者不是資訊環境的挑戰?',answer:2,
-        options:['作業習慣的改變','技術改變太慢','費用成本提高','全部皆是']
+        id: nanoid(),
+        title: '下列何者是知識管理生命週期的重點?',
+        answer: 2,
+        options:['檔案共享','知識蓄集','資料儲存','全部皆是']
     },
     {
-        id:nanoid(),title:'組織型態種類有哪些?',answer:2,
-        options:['垂直','全部皆是','扁平','專案']
+        id: nanoid(),
+        title: 'e-learning功能是何種資訊系統?',
+        answer: 2,
+        options: ['ERP', 'KM', 'SCM', 'CRM']
     },
     {
-        id:nanoid(),title:'下列何者是系統的模組',answer:4,
-        options:['輸入','輸出','控制','全部皆是']
+        id: nanoid(),
+        title: '下列何者不是技術進展的內涵?',
+        answer: 3,
+        options:['持續演化的過程','重新進行另一個新技術的演化','不會中斷','不連續的技術改變所中斷']
     },
     {
-        id:nanoid(),title:'軟體環境包含?',answer:4,
-        options:['作業系統','全部皆非','應用軟體','除全部皆非選項外全部皆是']
+        id: nanoid(),
+        title: '在知識的源頭構面中,其企業有分成的構面是指?',
+        answer: 1,
+        options:['全部皆是','外部','內部和外部','內部']
     },
     {
-        id:nanoid(),title:'資訊策略與企業策略的關係是什麼?',answer:1,
-        options:['上下關係','結合對應關係','全部皆非','沒有關係']
+        id: nanoid(),
+        title: '下列何者不是知識螺旋的重點?',
+        answer: 3,
+        options:['共同化與內化','外化','全部皆非','結合']
     },
     {
-        id:nanoid(),title:'下列何者不是經營管理和MIS系統的關係?',answer:2,
-        options:['營運平台','數學運算','工具','全部皆非']
+        id: nanoid(),
+        title: '資訊是指?',
+        answer: 4,
+        options:['全部皆是','價值的內容','原始事實','意義的事實']
     },
     {
-        id:nanoid(),title:'偕同BPM是適用於何作業流程整合?',answer:3,
-        options:['資源','部門','跨組織','全部皆是']
+        id: nanoid(),
+        title: '下列何者是知識螺旋的內涵',
+        answer: 3,
+        options:['結合','外化','全部皆是','內化']
     },
     {
-        id:nanoid(),title:'下列何者是組織流程,它包含?',answer:1,
-        options:['全部皆是','部門','作業','角色']
+        id: nanoid(),
+        title: '建構一個網路組織平台,有彈性變動的變形蟲組織和組織性學習是何種創新?',
+        answer: 4,
+        options:['全部皆是','流程創新','策略創新','組織創新']
     },
     {
-        id:nanoid(),title:'下列何者是企業行政程序的資訊化',answer:3,
-        options:['Workflow,ERP','SCM,BPM','Workflow,Collaboration','全部皆是']
+        id: nanoid(),
+        title: '知識庫功能是何種資訊系統?',
+        answer: 2,
+        options:['SCM','KM','ERP','CRM']
+    },{
+        id: nanoid(),
+        title: '在網路組織結構下,由互相連結的上下游「層」單元所組成的企業組織模式,請問這是什麼組織?',
+        answer: 4,
+        options:['全部皆非','虛擬組織','扁平組織','超連結組織']
     },
     {
-        id:nanoid(),title:'下列何者是組織和資訊科技關係?',answer:1,
-        options:['全部皆是','企業組織形成','資訊科技影響力','企業績效']
+        id: nanoid(),
+        title: '下列何者是知識經濟的標竿?',
+        answer: 1,
+        options:['全部皆是','創新容量','終身學習','彈性自足']
     },
     {
-        id:nanoid(),title:'下列何者是其由上而下層級是大大削減為只有二,三層等級?',answer:2,
-        options:['矩陣型態','扁平型態','全部皆是','專案型態']
+        id: nanoid(),
+        title: '下列何者不是知識螺旋的內涵',
+        answer: 1,
+        options:['外部','外化','全部皆是','內化']
     },
     {
-        id:nanoid(),title:'下列何者不是組織定義?',answer:3,
-        options:['目標','活動','部門','資源']
+        id: nanoid(),
+        title: '資訊檢索功能是何種資訊系統?',
+        answer: 3,
+        options:['ERP','CRM','KM','SCM']
     },
     {
-        id:nanoid(),title:'下列何者是作業系統?',answer:1,
-        options:['Unix','全部皆是','Linus','IIS']
+        id: nanoid(),
+        title: '下列何者不是資訊科技工具?',
+        answer: 4,
+        options:['全部皆是','知識庫之分類編碼','資料倉儲','企業文件資料庫']
     },
     {
-        id:nanoid(),title:'下列何者是行動資訊環境之效益',answer:2,
-        options:['個人化','全部皆是','無所不在','即時']
+        id: nanoid(),
+        title: '下列何者不是Wayne Applehan知識管理系統的重點?',
+        answer: 4,
+        options:['介面層','智慧層','存取層','結合層']
     },
     {
-        id:nanoid(),title:'網際網路的環境主要包含哪些?',answer:1,
-        options:['除全部皆非選項外其餘皆是','網頁軟體平台','全部皆非','伺服器主機']
+        id: nanoid(),
+        title: '下列何者不是知識來源管道環境?',
+        answer: 4,
+        options:['資料的專業','資料的系統','資料的路徑','全部皆非']
     },
     {
-        id:nanoid(),title:'下列何者不是企業策略三層次之內容',answer:2,
-        options:['策略','全部皆非','戰術','方法']
+        id: nanoid(),
+        title: '下列何者不是知識管理系統例子?',
+        answer: 2,
+        options:['協同電子會議系統','交易處理系統','全部皆非','群組軟體']
     },
     {
-        id:nanoid(),title:'企業策略包含哪些?',answer:1,
-        options:['全部皆是','整體策略','作業策略','功能策略']
+        id: nanoid(),
+        title: '下列何者不是知識管理流程內容',
+        answer: 1,
+        options:['物品流通','知識獲取','知識創造','全部皆是']
     },
-    {
-        id:nanoid(),title:'就資訊人員而言,下列何者是資訊環境的挑戰?',answer:2,
-        options:['作業習慣的改變','技術改變太快','費用成本提高','全部皆是']
-    },
-    {
-        id:nanoid(),title:'一般資訊整合平台包含哪些?',answer:2,
-        options:['社群平台整合','全部皆是','應用程式整合','商業流程整合']
-    },
-    {
-        id:nanoid(),title:'資訊策略和企業策略的結合包含哪些關聯性?',answer:1,
-        options:['全部皆是','和其他功能性策略的關聯','經營管理和MIS系統的關聯','和循環作業的關聯']
-    },
-    {
-        id:nanoid(),title:'在面臨兩種以上選擇方案時,依照個人經驗和主觀內心,及現有收集資訊下,做出較感覺性的決定.請問這是什麼決策?',answer:1,
-        options:['個人決策','公司決策','全部皆是','企業決策']
-    },
-    {
-        id:nanoid(),title:'所謂企業本身系統狀況是指?',answer:4,
-        options:['使用者提出問題','企業需求','系統的資訊安全','在導入ERP之前,企業就有一些legacy system']
+    {//Chapter12
+        id: nanoid(),
+        title: '網路行銷是指?',
+        answer: 4,
+        options:['e-marketing','電子化行銷','泛指運用任何整合性科技來達到行銷目的','全部皆是']
+    },{
+        id: nanoid(),
+        title: '對企業而言,網路行銷分析是用來分析什麼的功能?',
+        answer: 4,
+        options:['全部皆非','滿足行銷者需要','滿足企業廠商需要','滿足消費者需要']
     },
     {
-        id:nanoid(),title:'ERP系統是內製的還是外包的決策,可從何處探討?',answer:1,
-        options:['全部皆是','需求專屬性','產業特性','企業本身系統狀況']
+        id: nanoid(),
+        title: '「有意願經常性購買」的消費者對於什麼效果是非常重視的?',
+        answer: 1,
+        options:['展開的網站功能與互動溝通','全部皆是','電子郵件','網站感覺與整合程度']
     },
     {
-        id:nanoid(),title:'在原有產業鏈中加入具有創新附加價值的功能,而此新加入中介者是依賴資訊統的運作得以發展. 是指什麼?',answer:4,
-        options:['改善','去中間化','全部皆是','再中間化']
+        id: nanoid(),
+        title: '行銷組合(Marketing mix)包含下列哪一項?',
+        answer: 2,
+        options:['產品','全部皆是','通路','促銷']
     },
     {
-        id:nanoid(),title:'在產業鏈過程中將原本具有中介功能的價值移除掉. 是指什麼?',answer:3,
-        options:['改善','再中間化','去中間化','全部皆是']
+        id: nanoid(),
+        title: 'Web Service是指什麼?',
+        answer: 2,
+        options:['應用功能','網路服務','全部皆是','軟體產品']
     },
     {
-        id:nanoid(),title:'管理資訊系統導入系統應包含哪些?',answer:1,
-        options:['全部皆是','開發溝通計畫','決定計畫標準和程序','確認和評估風險']
+        id: nanoid(),
+        title: '電子商務是採取何種資訊技術',
+        answer: 1,
+        options:['Internet','主從架構','全部皆是','2-Tier']
     },
     {
-        id:nanoid(),title:'下列何者是時程需被變更時的因應計畫？',answer:1,
-        options:['突發狀況發生','超額支出成本發生','全部皆是','考量人員調配']
+        id: nanoid(),
+        title: '網際網路行銷與傳統行銷有很大的差異?',
+        answer: 4,
+        options:['傳統行銷是在於高互動行銷','傳統行銷是在於個人化行銷','傳統行銷是在於小量行銷','傳統行銷是在於大量行銷']
     },
     {
-        id:nanoid(),title:'下列何者是資料庫系統的評估效益項目',answer:3,
-        options:['程式編碼','資料流程圖','資料的來源無法做到一致性','全部皆是']
+        id: nanoid(),
+        title: '下列何者是一種新的網路行銷例子',
+        answer: 4,
+        options:['one to one行銷','全部皆非','資料庫行銷','Blog行銷']
     },
     {
-        id:nanoid(),title:'一般的資訊系統導入應考量哪些？',answer:3,
-        options:['條件性的成熟','資源的需求','全部皆是','功能上的需求']
+        id: nanoid(),
+        title: '直效行銷是指?',
+        answer: 2,
+        options:['針對大眾化的需求','以期能獲得直接和立即的回應','間接與特定的消費者溝通','indirect marketing']
     },
     {
-        id:nanoid(),title:'程式架構主要分成?',answer:2,
-        options:['作業系統','全部皆是','Middleware(中介軟體)','資料庫']
+        id: nanoid(),
+        title: '整合性行銷溝通是指?',
+        answer: 2,
+        options:['非系統化的過程','利用多樣化行銷工具,來達到行銷溝通','全部皆是','Integrated sale Communication']
     },
     {
-        id:nanoid(),title:'下列何者不是系統設計的作業？',answer:3,
-        options:['全部皆是','資料流程圖','需求分析','資料表設計']
+        id: nanoid(),
+        title: '電子商務與企業電子化在管理上不同之處?',
+        answer: 1,
+        options:['企業電子化則改變了企業與企業,顧客甚至供應商之間經營運作模式','企業電子化僅包含了電子商務','企業電子化僅包含買賣之商業行為','全部皆是']
+    },{
+        id: nanoid(),
+        title: '網路行銷系統應如何取得,有哪些選擇?',
+        answer: 1,
+        options:['全部皆是','購置套裝軟體','委外設計開發','自行開發']
     },
     {
-        id:nanoid(),title:'下列何者是管理資訊系統選購決策小組？',answer:4,
-        options:['採購主管','企業全體員工','全部皆是','高級主管']
+        id: nanoid(),
+        title: '網際網路市場對消費者來說具有某些特性?',
+        answer: 2,
+        options:['極大化','無縫隙的介面','全部皆是','獨立性']
     },
     {
-        id:nanoid(),title:'下列何者一般都會出現在學校內,可讓學生來互相溝通和表達?',answer:1,
-        options:['電子布告欄','e-marketplace','Blog','全部皆是']
+        id: nanoid(),
+        title: '網路行銷重點?',
+        answer: 1,
+        options:['在企業經營模式的另一延伸','取代實體行銷','全部皆非','只是在網路網路上做行']
     },
     {
-        id:nanoid(),title:'下列何者不是通訊傳訊的網路構成模組',answer:3,
-        options:['網路模組','傳輸媒介','電腦處理','處理器']
+        id: nanoid(),
+        title: 'E-payment是屬於何種資訊系統',
+        answer: 1,
+        options:['電子商務','ERP','KM','SCM']
     },
     {
-        id:nanoid(),title:'何謂物件導向-關聯式資料庫?',answer:2,
-        options:['有多媒體資料','全部皆非','只有物件資料','只包含關聯式資料']
+        id: nanoid(),
+        title: '電子市集是屬於何種資訊系統?',
+        answer: 4,
+        options:['KM','ERP','SCM','電子商務']
     },
     {
-        id:nanoid(),title:'Web-base的軟體技術,分成哪三層?',answer:4,
-        options:['前端介面層','資料存取層','需求邏輯層','全部皆是']
+        id: nanoid(),
+        title: '行銷的過程時期有哪些?',
+        answer: 4,
+        options:['行銷導向','生產導向','銷售導向','全部皆是']
     },
     {
-        id:nanoid(),title:'下列何者不是拓樸種類?',answer:2,
-        options:['全部皆是','線狀','星狀','環狀']
+        id: nanoid(),
+        title: '網路購物網站是屬於何種資訊系統?',
+        answer: 2,
+        options:['SCM','電子商務','KM','ERP']
     },
     {
-        id:nanoid(),title:'下列何者不是電腦機房的必要設備?',answer:4,
-        options:['伺服器','不斷電系統','冷氣','光碟機']
+        id: nanoid(),
+        title: '網際網路行銷與傳統行銷有很大的差異?',
+        answer: 1,
+        options:['網路行銷是在於有互動的性質','網路行銷是在於大眾行銷','網路行銷是在於少量行銷','網路行銷是在於大量行銷']
     },
     {
-        id:nanoid(),title:'下列何者是指已以電信方式來架構各種通信設備的連網和傳訊?',answer:4,
-        options:['電腦','軟體','全部皆非','通信網路']
+        id: nanoid(),
+        title: 'Extranet Internet Intranet這三種最大的差異是?',
+        answer: 4,
+        options:['Internet以企業內部為中心','全部皆非','Intranet對外角色產生應用功能','Internet是企業和另一企業的交易作業']
     },
-    {
-        id:nanoid(),title:'下列敘述「軟體工程」，何者為正確？',answer:2,
-        options:['採用系統工程的概念,原理,技術和方法來開發與維護軟體開發的過程','全部皆是','必須透過許多實作實務經驗,來累積並強化相關技能','主要以軟體架構,軟體設計方法,軟體工程標準和規範,軟體開發工具,以及程式技術的相關理論作為研究']
-    },
-    {
-        id:nanoid(),title:'下列何者是軟體工程的企業應用系統之重點在於？',answer:4,
-        options:['系統架構','符合企業的需求','資料表正規化','全部皆是']
-    },
-    {
-        id:nanoid(),title:'軟體整合開發環境有何效益？',answer:3,
-        options:['縮短開發與確認時程','整合相關程式資源檔案','全部皆是','加快程式編碼進度']
+    {//Chapter13
+        id: nanoid(),
+        title: '防火牆功能是屬於何者議題的內容?',
+        answer: 3,
+        options:['協同分享','企業流程自動化','網路安全','客戶關係']
+    }, {
+        id: nanoid(),
+        title: '因應安全措施有?',
+        answer: 1,
+        options: ['全部皆是', '偵測', '預防','限制']
     },
     {
-        id:nanoid(),title:'下列何者不是整合軟體開發環境的效益?',answer:3,
-        options:['降低整體成本','縮短交期','全部皆非','提高顧客滿意度']
+        id: nanoid(),
+        title: '防毒軟體功能是屬於何者議題的內容?',
+        answer: 3,
+        options:['協同分享','企業流程自動化','網路安全','客戶關係']
     },
     {
-        id:nanoid(),title:'下列何者不是物件導向系統分析的內容？',answer:2,
-        options:['UML','全部皆非','資料流程圖','使用案例圖']
+        id: nanoid(),
+        title: '下列何者是IP Spoofing的內容?',
+        answer: 4,
+        options:['伺服器癱瘓','網路不穩','小量的發散','全部皆是']
     },
     {
-        id:nanoid(),title:'下列何者不是軟體工程內容？',answer:2,
-        options:['軟體開發工具','電腦','軟體設計方法','軟體標準和規範']
+        id: nanoid(),
+        title: '下列何者不是分散式系統的內容?',
+        answer: 1,
+        options:['全部皆是','資料分散於各地子系統','透過子系統做連接整合','二個以上子系統']
     },
     {
-        id:nanoid(),title:'何謂整合軟體開發環境？',answer:1,
-        options:['Integration development environment','IDF','Integration development engine','全部皆非']
+        id: nanoid(),
+        title: 'TRUSTe(www.truste.org)乃是1996年的重點?',
+        answer: 3,
+        options:['一個營利團體','不保證會濫用其個人資料','標章(seals)','資訊主席']
     },
     {
-        id:nanoid(),title:'以網域名稱之命名方式，「學校」通常是？',answer:4,
-        options:['com','net','gov','edu']
+        id: nanoid(),
+        title: '電腦病毒要發作徵兆有?',
+        answer: 3,
+        options:['當機','執行程式的速度變慢','全部皆是','畫面出現不明訊息']
     },
     {
-        id:nanoid(),title:'Utility Computing的觀念如同什麼方式一樣？',answer:2,
-        options:['產品一次性購買','全部皆是','供應水,電','租用']
+        id: nanoid(),
+        title: '在技術安全之議題上,是指怎樣的情況?',
+        answer: 4,
+        options:['全部皆是','人為破壞','人為管理不當','網路技術管理不當或有漏洞']
     },
     {
-        id:nanoid(),title:'企業導入資訊系統的考量點？',answer:4,
-        options:['程式客製','直接更新','跳躍式更新','全部皆是']
+        id:nanoid() ,
+        title: 'PAPA有哪些?',
+        answer: 4,
+        options:['non-privacy','全部皆非','人格權','所有權']
     },
     {
-        id:nanoid(),title:'物件導向技術盛行的原因？',answer:3,
-        options:['物件導向資料庫盛行','物件導向程式盛行','全部皆是','物件導向系統分析方法盛行']
+        id:nanoid() ,
+        title: '下列何者是數位簽章的效果?',
+        answer: 1,
+        options:['不可否認性','資料完整性','識別傳送端','全部皆是']
     },
     {
-        id:nanoid(),title:'下列何者是企業在網際網路的識別方式？',answer:3,
-        options:['主機名稱','機構名稱','全部皆是','IP位址']
+        id:nanoid() ,
+        title: '造成網路安全威脅的因素有那些?',
+        answer: 3,
+        options:['病毒','全部皆非','兩者皆是','駭客']
     },
     {
-        id:nanoid(),title:'下列何者不是行動裝置的問題？',answer:3,
-        options:['螢幕過小','無限的記憶體','有限的計算能力','很短的電池壽命']
+        id:nanoid() ,
+        title: '定期更新病毒碼功能是屬於何者議題的內容',
+        answer: 2,
+        options:['協同分享','網路安全','客戶關係','企業流程自動化']
     },
     {
-        id:nanoid(),title:'行動資訊環境包含那些要素?',answer:3,
-        options:['無線','行動設備','全部皆是','行動商務']
+        id:nanoid() ,
+        title: '網路安全和MIS系統是否有關係?',
+        answer: 4,
+        options:['全部皆是','不是','不一定','是']
+    },{
+        id:nanoid() ,
+        title: '何謂資訊安全?',
+        answer: 2,
+        options:['資訊上的危害,進而影響到個人和企業的利益','全部皆是','管理不當','人為故意的行為或資訊技術漏洞']
     },
     {
-        id:nanoid(),title:'行動商務之資料應用可分為？',answer:3,
-        options:['資訊服務及行動商務','網路存取','全部皆是','訊息/電子郵件']
+        id:nanoid() ,
+        title: '何謂偽裝式攻擊(IP Spoofing)?',
+        answer: 2,
+        options:['全部皆是','造成網路或伺服器癱瘓','大量地散發垃圾報郵件','取得攻擊或入侵目標的相關資訊']
     },
     {
-        id:nanoid(),title:'企業M化是指？',answer:3,
-        options:['由行動商務所延伸而來的概念和做法','無線應用','全部皆是','Enterprise Mobilization無線應用系統通訊協定']
+        id:nanoid() ,
+        title: '道德問題會在資訊本身議題下造成隱私權,智慧財產權等風險,是屬於何者議題的內容?',
+        answer: 1,
+        options:['資訊倫理','協同分享','資訊安全','客戶關係']
     },
     {
-        id:nanoid(),title:'行動加值服務可和顧客關係管理系統結合，例如？',answer:2,
-        options:['e-procurement','SFA,sales force automation','ERP','全部皆是']
+        id:nanoid() ,
+        title: '下列何者不是網路安全的技術',
+        answer: 4,
+        options:['網路程式供','作業系統','應用程式','全部皆非']
     },
     {
-        id:nanoid(),title:'普及商務和行動商務的差異?',answer:4,
-        options:['anywhere','全部皆非','anytime','攜帶行動設備']
+        id:nanoid() ,
+        title: '對個人資訊的一種保密是指?',
+        answer: 1,
+        options:['隱私權','客戶關係','non-privacy','人格權']
     },
-    {
-        id:nanoid(),title:'WAP(wireless application protocol)是指?',answer:2,
-        options:['Internet應用系統通訊協定','無線應用系統通訊協定','有線應用系統通訊協定','全部皆是']
-    },
-    {
-        id:nanoid(),title:'行動通訊網路的種類？',answer:3,
-        options:['電信通訊','數據通訊','全部皆是','電話通訊']
+    {//Chapter 14
+        id:nanoid() ,
+        title: '請問管理資訊系統部門是什麼定位的部門組織?',
+        answer: 2,
+        options:['主要性','支援性定位','全部皆是','營利性']
     },
     {
-        id:nanoid(),title:'行動商務具備了傳統網際網路所沒有之效益？',answer:4,
-        options:['全部皆是','沒有無線環境','有線環境限制','行動個人化的服務']
+        id:nanoid() ,
+        title: '上線後成效做檢討,一般其問題點有?',
+        answer: 4,
+        options:['資料不完整','功能使用情況不理想','全部皆是','和導入前期望功能有所差距']
     },
     {
-        id:nanoid(),title:'資訊系統的發展過程可簡單分成三個階段？',answer:1,
-        options:['全部皆是','主從式架構','網際網路系統架構','終端機和主機的架構']
+        id:nanoid() ,
+        title: '企業需求分析作業是屬於何者部門作業?',
+        answer: 1,
+        options:['MIS部門','研發部門','財務部門','業務部門']
     },
     {
-        id:nanoid(),title:'目前MIX系統的軟體平台？',answer:4,
-        options:['DOS-based','Windows-based','全部皆非','Web-based']
+        id:nanoid() ,
+        title: '預算作業是屬於和者部門作業?',
+        answer: 3,
+        options:['MIS部門','研發部門','財務部門','業務部門']
     },
     {
-        id:nanoid(),title:'何謂web 3-Tier?',answer:3,
-        options:['資料庫層','使用介面層','全部皆是','作業邏輯層']
+        id:nanoid() ,
+        title: '人力資源的運作是?',
+        answer: 1,
+        options:['創新式的組織型態','無法自行解決問題','例行程序的作業','將員工視為成本']
+    }, {
+        id: nanoid(),
+        title: '一般管理資訊系統部門範圍包含?',
+        answer: 3,
+        options:['部門結構','人員角色','全部皆是','工作職掌']
     },
     {
-        id:nanoid(),title:'由多個網路以快速的骨幹網路所連結而成，這是指何者網路？',answer:4,
-        options:['LAN','全部皆是','WAN','Internet']
+        id:nanoid() ,
+        title: '下列何者不是庫存數量檢核的重點?',
+        answer: 3,
+        options:['確保可以如期交貨','以掌控對客戶的回應','產品的詢價','接單時查詢庫存可用量']
     },
     {
-        id:nanoid(),title:'下列何者是行動商務的例子？',answer:1,
-        options:['現場盤點','訂單查詢','入庫收料','全部皆是']
+        id:nanoid() ,
+        title: 'MIS部門人員的價值是在於?',
+        answer: 3,
+        options:['管理電腦','全部皆是','利用IT技術支援企業經營作業','IT技術']
     },
     {
-        id:nanoid(),title:'Web平台證券包含哪些設備',answer:1,
-        options:['手機','ADSL','PC','全部皆是']
+        id:nanoid() ,
+        title: '企業資訊可分成?',
+        answer: 3,
+        options:['全部皆非','外部資訊','內外部資訊皆是','內部資訊']
     },
     {
-        id:nanoid(),title:'下列何者是Web 2.0特性？',answer:3,
-        options:['互動,參與和共享','標準化的協定','全部皆是','RIA']
+        id:nanoid() ,
+        title: '上線後成效及問題檢討,包含哪些?',
+        answer: 2,
+        options:['問題解決','全部皆是','差異部分不解決','導入時程']
     },
     {
-        id:nanoid(),title:'行動資訊環境具備了那些效益？',answer:2,
-        options:['無所不在','全部皆是','全部皆非','彈性和即時']
+        id:nanoid() ,
+        title: '每一個循環作業的檢核邏輯結果是否會影響下一個檢核邏輯步驟',
+        answer: 3,
+        options:['不會','沒有關係','會','全部皆是']
     },
     {
-        id:nanoid(),title:'web-based管理資訊系統和以往的管理資訊系統差異何在？',answer:1,
-        options:['除全部皆非選項外其餘皆是','使用操作','IT技術上','全部皆非']
+        id:nanoid() ,
+        title: '下列何者不是設計階段的重點',
+        answer: 2,
+        options:['分析各個方案的影響','開發替代方案','決定決策準則,設計滿足限制條件的方案','歸納成邏輯規則']
     },
     {
-        id:nanoid(),title:'下列何者不是web的特性？',answer:3,
-        options:['各個服務間沒有主從關係','無狀態','有狀態','相互獨立的實體']
+        id:nanoid() ,
+        title: '用軟體元件化的彈性是指?',
+        answer: 1,
+        options:['可來克服降低其企業需求作業的複雜變化性','全部皆是','風險就可降到最低','這是一種軟體工程技術方法論']
     },
     {
-        id:nanoid(),title:'下列何者是多媒體簡訊服務',answer:2,
-        options:['SMS','MMS','全部皆是','Short messag service']
+        id:nanoid() ,
+        title: '影響決策的主要因素?',
+        answer: 1,
+        options:['全部皆是','決策行為模式','目標的定義和澄清','個人情緒與企業文化']
     },
     {
-        id:nanoid(),title:'企業流程再造就是在於降低成本？',answer:1,
-        options:['錯誤認知','全部皆是','沒關係','對的']
+        id:nanoid() ,
+        title: '電腦機房管理作業,是屬於何者部門作業?',
+        answer: 1,
+        options:['MIS部門','研發部門','財務部門','業務部門']
+    },{
+        id:nanoid() ,
+        title: '在談ERP新系統導入時,就會因企業特有的專屬特性,所產生的功能,這就是指?',
+        answer: 1,
+        options:['差異部分不解決','標準化修改','企業需求和ERP新系統標準功能的差異部分','全部皆是']
     },
     {
-        id:nanoid(),title:'資料在組織部門的整合有？',answer:3,
-        options:['有工作群組層次','企業外部和企業內部的層次','全部皆是','個人層次']
+        id:nanoid() ,
+        title: '下列何者不是人力資源系統的廠商評估因素?',
+        answer: 3,
+        options:['系統功能','後續維護服務,系統風險評估等','價格','資訊趨勢']
     },
     {
-        id:nanoid(),title:'什麼是企業流程再造 (Business processreengineering) 的核心工作？',answer:3,
-        options:['企業流程的定義','原有流程的些微修改','全部皆非','原有流程的加強描述']
+        id: nanoid(),
+        title: '下列何者不是導入後的可能問題現象?',
+        answer: 1,
+        options: ['全部皆是', '當初沒想到或以為有想到,但導入後有需要', '當初都有規劃到,導入後本身功能沒有問題,但卻影響到對其他功能的問題','當初有規劃,但導入後沒有問題']
     },
     {
-        id:nanoid(),title:'企業流程再造是指？',answer:1,
-        options:['著眼於企業目標和企業效率的成效','應是超越一般工作流程的轉變','全部皆非','為流程而流程再造']
+        id:nanoid() ,
+        title: '若以資訊系統的精神,來看內部控制制度,他的重點在於?',
+        answer: 4,
+        options:['文件化','純粹的稽核','全部皆是','企業落實內控的執行力']
     },
     {
-        id:nanoid(),title:'企業流程再造的關鍵重點是在於？',answer:2,
-        options:['沿襲','全部皆非','徹底根本','非關鍵流程']
+        id:nanoid() ,
+        title: '是否所有企業都需要類似MIS的單位組織?',
+        answer: 2,
+        options:['否','是','可有可無','全部皆是']
     },
-    {
-        id:nanoid(),title:'Internet是指？',answer:3,
-        options:['企業對外部的資訊系統應用功能','是以企業內部為中心,對外角色產生應用功能','企業和另一企業的交易作業','企業內部的資訊系統應用功能']
+    {//Chapter15
+        id:nanoid() ,
+        title: '資料庫和資料庫之間交換時的標準方式是?',
+        answer: 1,
+        options:['XML','HTML','全部皆是','WORD']
     },
     {
-        id:nanoid(),title:'通路廠商在運輸過程中的流動是指？',answer:4,
-        options:['金流','資訊流','全部皆是','物流']
+        id:nanoid() ,
+        title: '共同行銷是屬於下列何者領域?',
+        answer: 2,
+        options:['全部皆是','策略聯盟','電子化企業','綠色企業']
     },
     {
-        id:nanoid(),title:'人在組織部門的執行力有？',answer:1,
-        options:['理論和實務的整合','企業外部和企業內部的層次','全部皆是','有工作群組層次']
+        id:nanoid() ,
+        title: '政府所推行的產業體系A,B,C,D,E計畫是否屬於電子化企業的領域?',
+        answer: 1,
+        options:['是','全部皆是','不是','不一定']
     },
     {
-        id:nanoid(),title:'Intranet是指？',answer:4,
-        options:['企業對外部的資訊系統應用功能','是以企業內部為中心,對外角色產生應用功能','企業和另一企業的交易作業','企業內部的資訊系統應用功能']
+        id:nanoid() ,
+        title: 'MES系統最主要是?',
+        answer: 1,
+        options:['全部皆是','生產執行活動效率化','一個快速而且即時的監控現場的活動','它包含工廠現場資訊取得與連結系統']
     },
     {
-        id:nanoid(),title:'從資訊系統應用功能所運作的過程，並在運作下每一個步驟會有資料產生。這句話是指？',answer:2,
-        options:['金流','資訊流','全部皆是','物流']
+        id:nanoid() ,
+        title: '電子化採購是屬於下列何者領域?',
+        answer: 3,
+        options:['全部皆是','策略聯盟','電子化企業','綠色企業']
     },
     {
-        id:nanoid(),title:'企業知道為何要做再造流程的思考？',answer:1,
-        options:['顧客的趨勢','內部控制','成本太高','人工作業電腦化']
+        id:nanoid() ,
+        title: '協同商務是屬於下列何者領域?',
+        answer: 3,
+        options:['全部皆是','策略聯盟','電子化企業','綠色企業']
     },
     {
-        id:nanoid(),title:'企業之間和銀行的金額來往是指？',answer:1,
-        options:['金流','資訊流','全部皆是','物流']
+        id:nanoid() ,
+        title: '體系企業間電子化的重點有?',
+        answer: 3,
+        options:['建立體系廠商發展策略','簡化且快速資料交換介面,縮短廠商交貨時程等','全部皆是','預先規劃體系廠商產能及庫存']
+    },{
+        id:nanoid() ,
+        title: '新的資訊系統環境和技術,是會造成什麼?',
+        answer: 1,
+        options:['全部皆是','須不斷學習','企業在資訊系統的解決方案多了選擇','在企業資訊系統的整合架構愈加複雜和困難']
     },
     {
-        id:nanoid(),title:'在資訊化企業的整合性階段之重點有哪些?',answer:2,
-        options:['全部皆是','企業所有部門功能','和企業外的所有角色之間互動','某些部門功能']
+        id:nanoid() ,
+        title: '體系內電子化廠商依其企業之間電子化程度中的A類供應廠商關鍵是在於?',
+        answer: 1,
+        options:['企業之間的作業的標準化','全部皆是','共同資料交換','Web接收資料']
     },
     {
-        id:nanoid(),title:'資訊化企業包含哪三個階段？',answer:4,
-        options:['整合性階段','功能性階段','跨產業階段','全部皆是']
+        id:nanoid() ,
+        title: '電子化企業是因為何種技術而盛行的?',
+        answer: 4,
+        options:['資料庫技術','全部皆非','藍芽技術','網際網路']
     },
     {
-        id:nanoid(),title:'在資訊化企業的跨產業性階段之重點有哪些？',answer:3,
-        options:['全部皆是','企業所有部門功能','和企業外的所有角色之間互動','某些部門功能']
+        id:nanoid() ,
+        title: '允諾交期是指?',
+        answer:3,
+        options:['可得知預計之交貨時間','使顧客在訂單時即可得知所有相關訂單資訊','全部皆是','ATP Available to Promise']
     },
     {
-        id:nanoid(),title:'企業流程再造可以分為下列哪些階段？',answer:1,
-        options:['全部皆是','設計分析期','準備認知期','確認評估期']
+        id:nanoid() ,
+        title: '下列何者是Sourcing的功能?',
+        answer: 3,
+        options:['全部皆是','採購開立','供應商詢估價作業','存貨控制']
     },
     {
-        id:nanoid(),title:'企業在產業中所扮演的角色來看，所謂的角色就是指？',answer:2,
-        options:['客戶','全部皆是','供應商','通路經銷商']
+        id: nanoid(),
+        title: '體系內電子化廠商依其企業之間電子化程度中的A類供應廠商關鍵是以什麼方式連結?',
+        answer: 4,
+        options: ['全部皆是','FTP','web browser','AP to AP的方式']
     },
     {
-        id:nanoid(),title:'關鍵性流程重點是在於?',answer:2,
-        options:['全部皆非','它是使整個企業複雜流程有附加價值產生的因素','產生不合理流程','不會影響流程效能的瓶頸所在']
+        id:nanoid() ,
+        title: '下列何者中英文描述是對的?',
+        answer: 2,
+        options:['網際網路Internet','全部皆是','企業內部網路Intranet','企業外網路Extranet']
     },
     {
-        id:nanoid(),title:'在資訊化企業的功能性階段之重點有哪些？',answer:4,
-        options:['全部皆是','企業所有部門功能','和企業外的所有角色之間互動','某些部門功能']
+        id:nanoid() ,
+        title: '企業入口網站能夠提供什麼?',
+        answer: 4,
+        options:['外部顧客,供應商,和企業夥伴之間做溝通互動','更能夠提供管理者制定決策的相關支援','個人化的企業與其內部員工溝通','全部皆是']
     },
     {
-        id:nanoid(),title:'企業流程再造，必須從那裡開始著手？',answer:2,
-        options:['個人','關鍵流程','技術','企業外部']
+        id:nanoid() ,
+        title: '整個資訊系統的環境目前已轉換到什麼重點的新趨勢時,以及技術也相對變得複雜和困難的說明下,吾人可知過去是以?',
+        answer: 4,
+        options:['推銷為手法的手段模式','全部皆非','產品為核心的思考模式','解決方案與服務']
     },
     {
-        id:nanoid(),title:'整體最佳化效益是指?',answer:1,
-        options:['使企業發揮最大綜效','由各功能別的部門分別運作','部門最佳化是重點','會阻礙企業最佳化']
+        id:nanoid() ,
+        title: '上下游庫存資訊是指?',
+        answer: 3,
+        options:['透過資訊系統將產業上游體系的庫存資料庫整合','透過資訊系統將產業下游體系的庫存資料庫整合','透過資訊系統將產業上下游體系的庫存資料庫整合','透過資訊系統將企業各據點的庫存資料庫整合']
+    },{
+        id:nanoid() ,
+        title: '客戶要的是?',
+        answer: 2,
+        options:['全部皆非','整體解決方案','故須由本身產品來加強企業所提供之價值','是單一的產品']
     },
     {
-        id:nanoid(),title:'下列何者是真正的需求定義？',answer:3,
-        options:['老闆來訂定','以前習慣作業','應是有一個機制管道來產生和確認需求定義的過程','應是從使用者角度所提出來的需求來分析']
+        id:nanoid() ,
+        title: 'XML是指?',
+        answer: 1,
+        options:['全部皆是','eXtensible Markup Language','是一個讓不同文件能夠轉換給不同的介面去查詢,同時又很容易讓不同電腦程式去辨識的語言格式和語法','可延伸性標示語言']
     },
     {
-        id:nanoid(),title:'管理資訊系統和循環作業是否有關係？',answer:3,
-        options:['不一定','全部皆非','有關係','沒關係']
+        id:nanoid() ,
+        title: '以EDI傳輸訂單資訊有什麼特色?',
+        answer: 1,
+        options:['建置成本高昂','反應速度快','全部皆非','開放型態']
     },
-    {
-        id:nanoid(),title:'下列何者不是Bill Of Material重點？',answer:1,
-        options:['說明其彼此間的組合程序','物料清單','是指在描述某一成品,由那些原物料或半成品所組成的','指在描述某一成品,由那些原物料或半成品所生產的途程']
+    {//Chapter16
+        id:nanoid() ,
+        title: 'Web-base協同研發商務系統強調?',
+        answer: 1,
+        options:['全部皆非','能快速地,正確地,關聯地得到彼此其所溝通一致性的資訊','企業內,供應商廠,客戶,企業夥伴成員等角色各自發展','主從平台應用']
     },
     {
-        id:nanoid(),title:'ERP系統是否屬於管理資訊系統的一種',answer:2,
-        options:['不一定','是','否','全部皆非']
+        id:nanoid() ,
+        title: '產業資源規劃的重點?',
+        answer: 4,
+        options:['產業鏈','企業之間資源','資源最佳化','全部皆是']
     },
     {
-        id:nanoid(),title:'管理資訊系統在循環作業的功效?',answer:1,
-        options:['自動稽核','產生決策','全部皆是','擬定制度']
+        id:nanoid() ,
+        title: '何謂服務科技化?',
+        answer: 3,
+        options:['科技產品的服務過程','全部皆是','將服務流程輔助科技技術的運用','是一種科技產品']
     },
     {
-        id:nanoid(),title:'資訊系統的循環作業流程是和什麼有關？',answer:4,
-        options:['內部控制制度','企業流程再造','管理辦法','全部皆是']
+        id:nanoid() ,
+        title: '物聯網是什麼?',
+        answer: 1,
+        options:['Internet of Things','全部皆是','Wireless Sensor Networking','Network of Things']
     },
     {
-        id:nanoid(),title:'企業對於導入企業資源規劃系統的期望，是從什麼觀點來看？',answer:1,
-        options:['符合需求','全部皆非','投資報酬率','成本']
+        id:nanoid() ,
+        title: 'EPCglobal包含?',
+        answer: 2,
+        options:['Exchange','全部皆是','Capture','Identify']
     },
     {
-        id:nanoid(),title:'下列何者是基礎主檔的例子? ',answer:1,
-        options:['客戶基礎主檔','採購主檔','訂單主檔','出貨主檔']
+        id:nanoid() ,
+        title: '網路視訊會議功能是屬於何者資訊系統?',
+        answer: 1,
+        options:['協同商務','ERP','CRM','SCM']
     },
     {
-        id:nanoid(),title:'下列何者是ERP模組應用功能有？',answer:3,
-        options:['生產銷售管理','銷售訂單','全部皆是','物料庫存管理']
+        id:nanoid() ,
+        title: 'ETL是指?',
+        answer: 1,
+        options:['全部皆是','轉換Transformation','萃取Extraction','載入Loading']
+    },{
+        id:nanoid() ,
+        title: '下列何者不是雲端運算?',
+        answer: 1,
+        options:['On Premise','全部皆是','Paas','IaaS']
     },
     {
-        id:nanoid(),title:'會影響到成功的管控導入企業資源規劃的系統的因素，有哪項？',answer:1,
-        options:['全部皆非','期望太高','程式錯誤','新軟體技術']
+        id:nanoid() ,
+        title: '協同研發商務的重點?',
+        answer: 3,
+        options:['將企業內部研發擴展延伸到外部客戶和供應商的公同研發','是產業資源規劃的典型例子','全部皆是','在做研發程序中就考慮到共同需求']
     },
     {
-        id:nanoid(),title:'ERP軟體效能是指?',answer:2,
-        options:['非分散式應用能力','全球環境支援的能力','客戶單層式架構的能力','同質資料庫與平台介面整合能力']
+        id:nanoid() ,
+        title: '企業要運作整合性管理資訊系統須考慮因素?',
+        answer: 1,
+        options:['企業資源整合','服務科技化','前後端作業關聯','全部皆是']
     },
     {
-        id:nanoid(),title:'平行上線是指？',answer:2,
-        options:['舊新系統不同時導入','舊新系統同時上線','舊新系統不同時導入','舊新系統不同時上線']
+        id:nanoid() ,
+        title: '商業智慧是一種以提供什麼的營運資料?',
+        answer: 1,
+        options:['決策分析性','全部皆是','資料性','交易性']
     },
     {
-        id:nanoid(),title:'企業營運差異（Gap) 問題是指',answer:4,
-        options:['進度差異太大','全部皆是','價格差異太大','ERP系統和企業需求差異']
+        id:nanoid() ,
+        title: '物聯網的目的?',
+        answer: 3,
+        options:['實現智慧化識別,定位,跟蹤,監控和管理的一種網路','方便識別和管理,進行資訊交換及通訊','全部皆是','是讓所有的物品都與網路連接在一起']
     },
     {
-        id:nanoid(),title:'下列何者是ERP系統的功能重點？',answer:1,
-        options:['全部皆是','作業程序自動化','產生報表','資料關聯']
+        id:nanoid() ,
+        title: '最新資訊企業系統變革是指什麼?',
+        answer: 3,
+        options:['全部皆非','流程再造','智能物件','軟體技術']
     },
     {
-        id:nanoid(),title:'下列哪一項是交易主檔的例子？',answer:4,
-        options:['客戶','BOM主檔等','全部皆是','訂單主檔']
+        id:nanoid() ,
+        title: '群組軟體功能是屬於何者資訊系統?',
+        answer: 1,
+        options:['協同商務','ERP','CRM','SCM']
     },
     {
-        id:nanoid(),title:'下列何者不是料品來源？',answer:1,
-        options:['運輸','同業','調撥','外包']
+        id:nanoid() ,
+        title: '電子白板功能是屬於何者資訊系統?',
+        answer: 1,
+        options:['協同商務','ERP','CRM','SCM']
     },
     {
-        id:nanoid(),title:'ERP系統和CRM系統的關係為何？',answer:3,
-        options:['採購作業','入庫作業','訂單作業','全部皆是']
+        id:nanoid() ,
+        title: '協同商務在整合性管理資訊系統的重點為何?',
+        answer: 2,
+        options:['即時參與','全部皆是','整合所有利害關係人','共同平台']
     },
     {
-        id:nanoid(),title:'M-BOM (manufacture BOM)是指？',answer:1,
-        options:['製造工單用的BOM','成本用的BOM','研發用的BOM','生產製造用的BOM']
+        id:nanoid() ,
+        title: '資料倉儲是以什麼為導向?',
+        answer: 3,
+        options:['沒有導向','完整性','主體性','全部皆非']
+    },{
+        id:nanoid() ,
+        title: '一種結合電腦軟體和硬體的應用,成為韌體驅動的產品是什麼?',
+        answer: 2,
+        options:['全部皆是','Embeded System','IP','Wireless Sensor Network']
     },
     {
-        id:nanoid(),title:'ERP、BPR、內部控制這三者須互相關聯？',answer:4,
-        options:['沒有關係','全部皆是','不對','對']
+        id:nanoid() ,
+        title: '整合性的管理資訊系統重點為何?',
+        answer: 3,
+        options:['整合企業夥伴的資訊系統','結合企業內不同資訊系統','全部皆是','服務導向架構']
     },
     {
-        id:nanoid(),title:'利害關係人是指?(賴姊提供)',answer:1,
-        options:['全部皆是','','','']
+        id:nanoid() ,
+        title: 'IRP的模式內容重點為何?',
+        answer: 2,
+        options:['IRP系統營運兼顧協同和委外及內部模式','全部皆是','IRP系統分類','IRP產業鏈功能深化程度']
     }
 ]
